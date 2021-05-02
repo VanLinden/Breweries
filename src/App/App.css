@@ -1,5 +1,5 @@
 .container {
-    width: 300px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -9,25 +9,16 @@
     text-align: center;
   }
   .mat-card-content {
+    text-align: left;
     width: 100%;
     display:inline-block;
     height: 160px;
   }
   .mat-card {
     padding: 8px 10px 10px 10px;
-    width:310px;
+    width:160px;
     height: 210px;
     background-color: lightyellow;
-    margin: 10px;
-    border: solid chocolate 2px;
-    border-radius: 6px;
-    display: inline-table;
-  }
-  .mat-card1 {
-    padding: 8px 10px 10px 10px;
-    width:310px;
-    height: 210px;
-    background-color: lawngreen;
     margin: 10px;
     border: solid chocolate 2px;
     border-radius: 6px;
@@ -41,8 +32,14 @@
     color: chocolate;
     text-align: center;
   }
-  p {
-    text-align: left;
-    overflow: hidden;
+  .inLine {
+    display: inline-block;
   }
+  .d-none {
+    display: none;
+  }
+  .d-block {
+    display: block;
+  }
+
 
