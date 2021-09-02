@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
 import './App.css';
 
+// luck
+
 const App = props => {
     const [data, setData] = useState([]);
     const [iniData, setIniData] = useState([]);
